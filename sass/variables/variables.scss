@@ -1,0 +1,19 @@
+:root{
+    --gsi-aqua:#{rgba(131, 207, 203, 1)};
+    --gsi-light-dark-blue:#{rgba(131, 179, 203, 1)};
+    --gsi-blue:#{rgba(0, 129, 198, 1)};
+    --gsi-dark-blue:#{rgba(0, 51, 70, 1)};
+    --gsi-orange:#{rgba(250, 166, 62, 1)};
+    --gsi-green:#{rgba(96, 148, 145, 1)};
+    --gsi-light-blue:#{rgba(62, 187, 250, 1)};
+    --gsi-flat-blue:#{rgba(96, 130, 148, 1)};
+    --gsi-brown:#{rgba(122, 109, 92, 1)};
+    --gsi-grey:#{rgba(82, 97, 96, 1)};
+    --gsi-dark-grey:#{rgba(38, 51, 50, 1)};
+    --width: 10vw;
+    --full-width: 10vw;
+    --angle: -4.3deg;
+    --magic-number: 0.1;
+    --skew-padding: calc(var(--width) * var(--magic-number));
+    --clip-padding: calc(var(--full-width) * var(--magic-number));
+}

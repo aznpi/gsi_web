@@ -1,0 +1,92 @@
+.section-table .table-container {
+  margin-top: 50px;
+  padding: 0 100px;
+}
+@media screen and (max-width: 600px) {
+  .section-table .table-container {
+    padding: 0;
+  }
+}
+.section-table .table-container.simple-table {
+  padding: 0 200px;
+}
+@media screen and (max-width: 600px) {
+  .section-table .table-container.simple-table {
+    padding: 0;
+  }
+}
+.section-table .table-container.simple-table table {
+  border-spacing: 0;
+  border-collapse: collpase;
+}
+.section-table .table-container.simple-table table tr th:first-child {
+  border-right: 1px solid #83CFCB;
+}
+.section-table .table-container.simple-table table tr td {
+  border: 1px solid #83CFCB;
+  background: #FFF !important;
+}
+.section-table .table-container.simple-table table tr td:first-child {
+  font-family: Barlow;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+}
+.section-table .table-container.simple-table table tr:nth-child(2) td:first-child {
+  border-radius: 5px 0 0 0;
+}
+.section-table .table-container.simple-table table tr:nth-child(2) td:last-child {
+  border-radius: 0 5px 0 0;
+}
+.section-table .table-container.simple-table table tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+.section-table .table-container.simple-table table tr:last-child td:last-child {
+  border-radius: 0 0 5px 0;
+}
+.section-table .table-container table {
+  background-color: transparent;
+  width: 100%;
+  border-spacing: 2px;
+  border-collapse: separate;
+}
+.section-table .table-container table tr:first-child th {
+  background: #003346;
+}
+.section-table .table-container table tr:nth-child(4n+2) td {
+  background: #83B3CB;
+}
+.section-table .table-container table tr:nth-child(4n+3) td {
+  background: #83CFCB;
+}
+.section-table .table-container table tr:nth-child(4n+4) td {
+  background: #F5F5F5;
+}
+.section-table .table-container table tr th, .section-table .table-container table tr td {
+  padding: 15px;
+  text-align: center;
+  margin: 2px;
+}
+.section-table .table-container table tr th:first-child, .section-table .table-container table tr td:first-child {
+  border-radius: 5px 0 0 5px;
+}
+.section-table .table-container table tr th:last-child, .section-table .table-container table tr td:last-child {
+  border-radius: 0 5px 5px 0;
+}
+.section-table .table-container table tr th {
+  color: #FFF;
+  font-family: Barlow;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+}
+.section-table .table-container table tr td {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}

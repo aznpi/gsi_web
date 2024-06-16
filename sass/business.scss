@@ -1,0 +1,132 @@
+.section-collage{
+    .collage-box{
+        padding:0 70px;
+        @media screen and (max-width: 600px) {
+            padding:0 30px;
+        }
+        .row{
+            &:not(:last-child){
+                border-bottom: 3px solid #003346;
+            }
+            .col-md-4{
+                &:first-child{
+                   
+                        .box-container{
+                            &:not(.title-box){
+                                width:93%;
+
+                                @media screen and (max-width: 600px) {
+                                    width:100%;
+                                }
+                            }
+                           
+                        }
+                    
+                }
+            }
+        }
+        .col-box{
+            padding:0;
+            
+            .box-container{
+                padding:30px;
+                height:100%;
+
+                @media screen and (max-width: 600px) {
+                    &:not(.title-box){
+                        padding:50px 30px;
+                    }
+
+                    .description{
+                        width:100%;
+                    }
+                }
+
+                h2,h3,h4{
+                    text-align: center;
+                    font-weight:700;
+                    span{
+                        font-size: inherit;
+                    }
+                }
+                h2{
+                    line-height: 54px;
+                }
+                h3{
+                    font-size:35px;
+                }
+                h4{
+                    margin-top:30px;
+                }
+                p{
+                    text-align: center;
+                }
+                &.title-box{
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position:-10px center;
+                    position: relative;
+                    width: 93%;
+                    @media screen and (max-width: 600px) {
+                        width: 100%;
+                    }
+                    &:after{
+                        content: '';
+                        width: 30px;
+                        height: 100%;
+                        display: block;
+                        position: absolute;
+                        right: -29px;
+                        clip-path: polygon(0 0, 0% 100%, 100% 50%);
+
+                        @media screen and (max-width: 600px) {
+                            width: 100%;
+                            height: 30px;
+                            right: 0;
+                            bottom: -30px;
+                            clip-path: polygon(0 0, 50% 100%, 100% 0);
+                        }
+                    }
+
+                    
+                    &.dark-blue{
+                        background-color: #003346;
+                        &:after{
+                            background-color: #003346;
+                        }
+                    }
+                    &.light-blue{
+                        background-color: #96C4DB;
+                        &:after{
+                            background-color: #96C4DB;
+
+                        }
+                    }
+                    h2,h3,h4{
+                        text-align: left;
+                        @media screen and (max-width: 600px) {
+                            text-align: center;
+                        }
+                    }
+
+                    display: flex;
+                    align-items: center;
+                }
+                
+            }
+
+            &:not(:last-child){
+                .box-container{
+                    &:not(.title-box){
+                        border-right:1px solid #FFF;
+
+                        @media screen and (max-width: 600px) {
+                            border-right:0;
+                            border-bottom:1px solid #FFF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

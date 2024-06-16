@@ -1,0 +1,101 @@
+.section-2-column-3-timetable{
+    .timetable-title-row{
+        @media only screen and (max-width: 600px) {
+
+            .col-md-9{
+                .description{
+                    h2{
+                        span{
+                            margin-top:0;
+                        }
+                    }
+                    p{
+                        padding-top:60px;
+                        &:first-child{
+                            padding-top:80px;
+                        }
+                    }
+                }
+               
+            }
+            .col-md-3{
+                position: absolute;
+                width: 50%;
+                right: 0;
+                top:60px;
+            }
+        }
+    }
+    .timetable-container-row{
+        margin-top:100px;
+
+        .timetable-container{
+            padding:0 30px;
+            @media only screen and (max-width: 1199.9px) {
+                padding:0 10px;
+            }
+            @media only screen and (max-width: 600px) {
+                margin-bottom:50px;
+            }   
+            .day-container{
+                padding:5px;
+                background: #E3EEF3;
+                font-family: Barlow;
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 36px;
+                text-align: center;
+                border-radius: 5px;
+                margin-bottom:25px;
+
+            }
+            .timetable-column-container{
+                @media only screen and (max-width: 600px) {
+                    padding:0 50px;
+                }
+            }
+            .timetable-divider{
+                background-image: url(https://5020112.fs1.hubspotusercontent-na1.net/hubfs/5020112/Website/Greystone_Institute/template-resources/images/background/bg_timetable_diviider.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                height:50px; 
+                width:100%;
+
+            }
+
+            .timetable-detail-container{
+                border-radius: 5px;
+                padding:50px;
+
+                @media only screen and (max-width: 1199.9px) {
+                    padding:30px;
+                } 
+
+                ul{
+                    text-align: center;
+                    
+                    li{
+                        margin-bottom:30px;
+
+                        &.time-detail{
+                            
+                            font-size: 20px;
+                            font-weight: 500;
+                            line-height: 25px;
+                            
+                        }
+                        &.item-detail{
+                            
+                            font-size: 25px;
+                            font-weight: 700;
+                            line-height: 30px;
+                            
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}
+

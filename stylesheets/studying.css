@@ -1,0 +1,68 @@
+.section-vertical-carousel .carousel-container {
+  margin-top: 100px;
+}
+.section-vertical-carousel .carousel-container .nav-tabs {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.section-vertical-carousel .carousel-container .nav-tabs li {
+  padding: 15px 20px;
+  background: #F5F5F5;
+}
+.section-vertical-carousel .carousel-container .nav-tabs li:not(:last-child) {
+  border-bottom: 1px solid #003346;
+}
+.section-vertical-carousel .carousel-container .nav-tabs button.nav-link {
+  border: 0;
+  font-family: Barlow;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  color: #003346;
+}
+.section-vertical-carousel .carousel-container .nav-tabs button.nav-link.active {
+  color: #83B3CB;
+  border: 0;
+  background-color: transparent;
+}
+.section-vertical-carousel .tab-content {
+  padding-left: 30px;
+}
+@media (max-width: 991.7px) {
+  .section-vertical-carousel .tab-content {
+    padding-left: 0;
+  }
+}
+.section-vertical-carousel .tab-content .description h3 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-vertical-carousel .tab-content .description h3:not(:first-child) {
+  margin-top: 30px;
+}
+.section-vertical-carousel .accordion-button {
+  background: #F5F5F5;
+  font-family: Barlow;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+@media (min-width: 992px) {
+  .section-vertical-carousel .accordion-item {
+    border: 0;
+  }
+}
+@media (max-width: 991.7px) {
+  .section-vertical-carousel .tab-title {
+    display: none;
+  }
+  .section-vertical-carousel .tab-body {
+    width: 100%;
+  }
+  .section-vertical-carousel .tab-content > .tab-pane {
+    display: block;
+    opacity: 1;
+  }
+}

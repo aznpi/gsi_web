@@ -1,0 +1,19 @@
+:root {
+  --gsi-aqua: #83cfcb;
+  --gsi-light-dark-blue: #83b3cb;
+  --gsi-blue: #0081c6;
+  --gsi-dark-blue: #003346;
+  --gsi-orange: #faa63e;
+  --gsi-green: #609491;
+  --gsi-light-blue: #3ebbfa;
+  --gsi-flat-blue: #608294;
+  --gsi-brown: #7a6d5c;
+  --gsi-grey: #526160;
+  --gsi-dark-grey: #263332;
+  --width: 10vw;
+  --full-width: 10vw;
+  --angle: -4.3deg;
+  --magic-number: 0.1;
+  --skew-padding: calc(var(--width) * var(--magic-number));
+  --clip-padding: calc(var(--full-width) * var(--magic-number));
+}

@@ -1,0 +1,81 @@
+@media only screen and (max-width: 600px) {
+  .section-2-column-3-timetable .timetable-title-row .col-md-9 .description h2 span {
+    margin-top: 0;
+  }
+  .section-2-column-3-timetable .timetable-title-row .col-md-9 .description p {
+    padding-top: 60px;
+  }
+  .section-2-column-3-timetable .timetable-title-row .col-md-9 .description p:first-child {
+    padding-top: 80px;
+  }
+  .section-2-column-3-timetable .timetable-title-row .col-md-3 {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 60px;
+  }
+}
+.section-2-column-3-timetable .timetable-container-row {
+  margin-top: 100px;
+}
+.section-2-column-3-timetable .timetable-container-row .timetable-container {
+  padding: 0 30px;
+}
+@media only screen and (max-width: 1199.9px) {
+  .section-2-column-3-timetable .timetable-container-row .timetable-container {
+    padding: 0 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .section-2-column-3-timetable .timetable-container-row .timetable-container {
+    margin-bottom: 50px;
+  }
+}
+.section-2-column-3-timetable .timetable-container-row .timetable-container .day-container {
+  padding: 5px;
+  background: #E3EEF3;
+  font-family: Barlow;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+@media only screen and (max-width: 600px) {
+  .section-2-column-3-timetable .timetable-container-row .timetable-container .timetable-column-container {
+    padding: 0 50px;
+  }
+}
+.section-2-column-3-timetable .timetable-container-row .timetable-container .timetable-divider {
+  background-image: url(https://5020112.fs1.hubspotusercontent-na1.net/hubfs/5020112/Website/Greystone_Institute/template-resources/images/background/bg_timetable_diviider.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+.section-2-column-3-timetable .timetable-container-row .timetable-container .timetable-detail-container {
+  border-radius: 5px;
+  padding: 50px;
+}
+@media only screen and (max-width: 1199.9px) {
+  .section-2-column-3-timetable .timetable-container-row .timetable-container .timetable-detail-container {
+    padding: 30px;
+  }
+}
+.section-2-column-3-timetable .timetable-container-row .timetable-container .timetable-detail-container ul {
+  text-align: center;
+}
+.section-2-column-3-timetable .timetable-container-row .timetable-container .timetable-detail-container ul li {
+  margin-bottom: 30px;
+}
+.section-2-column-3-timetable .timetable-container-row .timetable-container .timetable-detail-container ul li.time-detail {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.section-2-column-3-timetable .timetable-container-row .timetable-container .timetable-detail-container ul li.item-detail {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+}
